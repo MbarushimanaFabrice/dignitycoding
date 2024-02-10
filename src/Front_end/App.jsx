@@ -10,8 +10,7 @@ function App() {
         <nav className="bg-gray-800 p-4 fixed w-full">
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-10">
             <div className=" sm:ml-6 sm:block">
-              <img src="Digne_codes.PNG"/>
-              <div className="flex space-x-4  justify-center items-center lg:gap-20 z-50">
+               <div className="flex space-x-4  justify-center items-center lg:gap-20 z-50">
                 <Link
                   className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium cursor-pointer"
                   to="Home"
