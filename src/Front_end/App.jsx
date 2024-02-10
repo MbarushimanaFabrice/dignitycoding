@@ -8,8 +8,7 @@ function App() {
       {/* Home page */}
       <div className="homepage w-full h-[100vh]">
         <nav className="bg-gray-800 p-4 fixed w-full">
-          <img src="https://github.com/MbarushimanaFabrice/dignitycoding/blob/main/public/bg.jpg"/>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-10">
+           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-10">
             <div className=" sm:ml-6 sm:block">
                <div className="flex space-x-4  justify-center items-center lg:gap-20 z-50">
                 <Link
