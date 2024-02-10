@@ -98,7 +98,7 @@ function App() {
           </div>
           <div className="px-6 pt-4 pb-2">
             <a
-              href="https://fabrice-dev.vercel.app"
+              href="https://fabrice-dev.vercel.app" target="_black"
               className="inline-flex items-center px-5 py-3 text-sm font-medium text-center text-white bg-gray-700 rounded-lg  focus:ring-4 focus:outline-none focus:text-gray-300"
             >
               Read more
