@@ -139,8 +139,8 @@ function App() {
           </div>
 
           <div className="px-6 pt-4 pb-2">
-            <a
-              href="https://www.linkedin.com/in/digne-di-confiance-nurukundo-98295929a/"
+            <a 
+              href="https://www.linkedin.com/in/digne-di-confiance-nurukundo-98295929a/" target="_black"
               className="inline-flex items-center px-5 py-3 text-sm font-medium text-center text-white bg-gray-700 rounded-lg  focus:ring-4 focus:outline-none focus:text-gray-300"
             >
               Read more
