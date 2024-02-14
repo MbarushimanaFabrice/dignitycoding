@@ -8,9 +8,9 @@ function App() {
       {/* Home page */}
       <div className="homepage w-full h-[100vh]">
         <nav className="bg-gray-800 p-4 fixed w-full">
-           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-10">
+          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-10">
             <div className=" sm:ml-6 sm:block">
-               <div className="flex space-x-4  justify-center items-center lg:gap-20 z-50">
+              <div className="flex space-x-4  justify-center items-center lg:gap-20 z-50">
                 <Link
                   className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium cursor-pointer"
                   to="Home"
@@ -44,6 +44,15 @@ function App() {
                   smooth={true}
                 >
                   Mission
+                </Link>
+
+                <Link
+                  className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium cursor-pointer"
+                  to="events"
+                  spy={true}
+                  smooth={true}
+                >
+                  Events
                 </Link>
 
                 <Link
@@ -98,7 +107,7 @@ function App() {
           </div>
           <div className="px-6 pt-4 pb-2">
             <a
-              href="https://fabrice-dev.vercel.app" target="_black"
+              href="https://fabrice-dev.vercel.app"
               className="inline-flex items-center px-5 py-3 text-sm font-medium text-center text-white bg-gray-700 rounded-lg  focus:ring-4 focus:outline-none focus:text-gray-300"
             >
               Read more
@@ -139,8 +148,8 @@ function App() {
           </div>
 
           <div className="px-6 pt-4 pb-2">
-            <a 
-              href="https://www.linkedin.com/in/digne-di-confiance-nurukundo-98295929a/" target="_black"
+            <a
+              href="https://www.linkedin.com/in/digne-di-confiance-nurukundo-98295929a/"
               className="inline-flex items-center px-5 py-3 text-sm font-medium text-center text-white bg-gray-700 rounded-lg  focus:ring-4 focus:outline-none focus:text-gray-300"
             >
               Read more
@@ -216,7 +225,10 @@ function App() {
           <div className="px-6 py-4 pb-6">
             <div className="font-bold text-xl mb-2">MBARUSHIMANA Fabrice</div>
             <p className="text-gray-700 text-xl font-thin">
-              MBARUSHIMANA Fabrice is a member of Dignity Coding Club. He participated in the Skills competition prepared by RTB and Swisscontact, and he became the second-best performer among six competitors.{" "}
+              MBARUSHIMANA Fabrice is a member of Dignity Coding Club. He
+              participated in the Skills competition prepared by RTB and
+              Swisscontact, and he became the second-best performer among six
+              competitors.{" "}
             </p>
           </div>
         </div>
@@ -260,6 +272,78 @@ function App() {
           </div>
         </div>
       </section>
+      <section id="events">
+        <h2 className=" text-center text-4xl font-bold mb-10">Events</h2>
+        <div className=" grid grid-cols-3  gap-10 place-items-center">
+           
+          <img
+            class=" h-96 w-96 max-w-md rounded-lg shadow-xl dark:shadow-gray-400"
+            src="https://lh3.googleusercontent.com/pw/ABLVV85EKVyu2Nj7QLE1uRtuoRJThwjG_z1cfnAxalV4eBM7XeCxbho9DrBoblJKnNXl5PTpDY8vDtn2_I44YlYOfQa1MDyfXHPERKK9mz3lGhOtYwkqLss5tgNuxYGAzisZybBBPZYaRi6uNv-NZ1a64oRk=w997-h748-s-no-gm?authuser=0"
+            alt="image description"
+          />
+          
+          <img
+            class=" h-96 w-96 max-w-md rounded-lg shadow-xl dark:shadow-gray-400"
+            src="https://lh3.googleusercontent.com/pw/ABLVV87ocPNgQBol7UfMmNxKD_95qWzOnYXkKtj82vvYdUel95s5tMN88qV8dwBclbQqkVdn1NI8XJVJZ5Km59KXOdzqMaZ3wynzyZUpf32cJtGOyWM1Lp2Q2lJjpj_fAh8SpsgELmaMjyNc-qaQUs5SE6dT=w561-h748-s-no-gm?authuser=0"
+            alt="image description"
+          />
+          
+          <img
+            class=" h-96 w-96 max-w-md rounded-lg shadow-xl dark:shadow-gray-400"
+            src="https://lh3.googleusercontent.com/pw/ABLVV87Nn2pTzcROaLb2Xi1K-LH_SJk-5ZiXXz4cSjsA0y9r6bfmGL-Tb5jdw7ZomSV0fxM1H8zlPkUKL_qBryWkz-B9nSX3ZrXafDrVN9Y4VPhgA5y35FadpOORISjleT2EtGaVPavGV6KIWkz_9t_9etRz=w561-h748-s-no-gm?authuser=0"
+            alt="image description"
+          />
+          
+          <img
+            class=" h-96 w-96 max-w-md rounded-lg shadow-xl dark:shadow-gray-400"
+            src="https://lh3.googleusercontent.com/pw/ABLVV85ZruF67qFKCfh64bBB3Rw8b3HvruRIssXqmZ4iya8BrSCUoXTiXP2mFuj1eP8MVnzXjAUTV76kVAkiIH6YzieNOr5zl8Z9sSkNGmZZz4TrA8uorPXSbCkif8cTBnude12dmBuLmqtPsEEaZtS3qevS=w997-h748-s-no-gm?authuser=0"
+            alt="image description"
+          />
+          
+          <img
+            class=" h-96 w-96 max-w-md rounded-lg shadow-xl dark:shadow-gray-400"
+            src="https://lh3.googleusercontent.com/pw/ABLVV84v3DpUWIWQoaNmfNbtl6dv5tYGcqrGNckIHzeSxP7QmJBeZ3fR1k4fxdIVUUKwBvx4wsdXv5hd8LW9zwO75C_G7tq5KmSqnWGbrSlmMYJQ7dVe-QcFX2RMjlIZoGFh_WopbRTdoaHKbEtpoJviRxYd=w561-h748-s-no-gm?authuser=0"
+            alt="image description"
+          />
+          <img
+            class=" h-96 w-96 max-w-md rounded-lg shadow-xl dark:shadow-gray-400"
+            src="https://lh3.googleusercontent.com/pw/ABLVV85cuewJz_pDn5i5GYFG0YJJCv8hbW_4jcIOGnrlHENSFFzGgvaQJGEooj2DUuumiSPFUpazKotuD03VH1PaU9JUz6zoaYmNHho-jSoRRxhsw71bZykJEE4siK98Lsv2yojNU-VRqpILHctE3k9U71Dx=w561-h748-s-no-gm?authuser=0"
+            alt="image description"
+          />
+          <img
+            class=" h-96 w-96 max-w-md rounded-lg shadow-xl dark:shadow-gray-400"
+            src="https://lh3.googleusercontent.com/pw/ABLVV860vIMhjajhSPXtwV5sUk7-MhY6SldTmeE2f_W2UTNbcS2Xoz6hw5fsP632X4jivJ6WgoJ8_sBstuZDvpXglrVRWeleXNVlIkMbbE-nX42vb8zJmedr3BBM3nfCDuefQNd8l33u0rrDvuyjL5c-uNYK=w561-h748-s-no-gm?authuser=0"
+            alt="image description"
+          />
+          
+          <img
+            class=" h-96 w-96 max-w-md rounded-lg shadow-xl dark:shadow-gray-400"
+            src="https://lh3.googleusercontent.com/pw/ABLVV87ib0TN_9caR_ukwP0MOBoPFA2BywpTuuE8NqxX8opSfIEqPwn6n0ps5UsT9jr7JCsJ5gnel2IRBT5xMMZzzAUdV90-DFxae_vvMrvrGpi_vU3mcsVOzyes2UqI9DgmfA1WODkqUpyNg4DhczWcxM3M=w997-h748-s-no-gm?authuser=0"
+            alt="image description"
+          />
+          <img
+            class=" h-96 w-96 max-w-md rounded-lg shadow-xl dark:shadow-gray-400"
+            src="https://lh3.googleusercontent.com/pw/ABLVV85273-fA9eOTpGSxtpiY9IHc2kPcPoUfaUjx-iQU50SAstjQ93cpSewrmHjqIy5EPYpPFK2mgUBngSPZ_C1Rw1uYjJQBpKgOEuIJA0RgsXssTFOgv20tqlk0U9AnxvvkXBkAKCOe1-Zpjz-SF9x1aun=w997-h748-s-no-gm?authuser=0"
+            alt="image description"
+          />
+          
+          <img
+            class=" h-96 w-96 max-w-md rounded-lg shadow-xl dark:shadow-gray-400"
+            src="https://lh3.googleusercontent.com/pw/ABLVV85rr6a5lxGeg9Ua1reo2YrTtO9VfZ2BgTgEBXqf6SzVpyh2X-5boG3PdiwlahIFyYdt9QnOFP6ToI8q_YwNxfid9C6mRaGQ9fdK4wrCgm9EbOngwBksNUIqhveoTB_D3jTnGVTsPmi2KrlR2sdi1M8t=w561-h748-s-no-gm?authuser=0"
+            alt="image description"
+          />
+          <a href="https://photos.google.com/share/AF1QipOf_1W1i6cTvLmHfUqHunwpi3pqme8rHVafbEIjAhLBrZ4xfQS3fxnK0TQVNmbIFg?key=R0RHQVZYMUFncVVReWNCbFp6aGFfMlhsOG95MWRB">
+<button type="button" class="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-9 py-5 text-center inline-flex items-center dark:bg-slate-600 dark:hover:bg-slate-700 dark:focus:ring-slate-800">
+More image
+<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+</svg>
+</button>
+          </a>
+
+</div>
+      </section>
+
       <p id="Location" className=" mt-32"></p>
       <h1 className=" text-center  text-4xl  m-5 font-bold mb-10 ">
         {" "}
