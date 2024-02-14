@@ -274,7 +274,7 @@ function App() {
       </section>
       <section id="events">
         <h2 className=" text-center text-4xl font-bold mb-10">Events</h2>
-        <div className=" grid grid-cols-3  gap-10 place-items-center">
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-10 place-items-center">
            
           <img
             class=" h-96 w-96 max-w-md rounded-lg shadow-xl dark:shadow-gray-400"
